@@ -13,7 +13,7 @@ export const Hero = () => {
                         </div>
                         <div className="flex gap-10 font-medium">
                             <a href="#projetos" className="h-10 w-32 flex items-center justify-center bg-[#7C3AED] rounded-lg hover:bg-[#A78BFA] transition-all">Ver Projetos</a>
-                            <a href="https://github.com/andre-arcanjo/andre-arcanjo" target="_blank" className="h-10 w-32 flex items-center justify-center bg-[#7C3AED] rounded-lg hover:bg-[#A78BFA] transition-all">GitHub</a>
+                            <a href="https://github.com/andre-arcanjo" target="_blank" className="h-10 w-32 flex items-center justify-center bg-[#7C3AED] rounded-lg hover:bg-[#A78BFA] transition-all">GitHub</a>
                         </div>
                     </div>
                     <div>
