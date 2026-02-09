@@ -1,7 +1,7 @@
 export const Hero = () => {
     return (
         <>
-                <div className="min-h-[80vh] text-[#E5E7E8] flex items-center justify-around">
+                <section className="min-h-[80vh] text-[#E5E7E8] flex items-center justify-around">
                     <div className="max-w-120 text-content space-y-8">
                         <div className="space-y-5">
                             <h1 className="text-4xl font-bold">André Arcanjo</h1>
@@ -19,7 +19,7 @@ export const Hero = () => {
                     <div>
                         <div className="h-60 w-60 rounded-full bg-[#A78BFA]"></div>
                     </div>
-                </div>
+                </section>
         </>
     )
 }
