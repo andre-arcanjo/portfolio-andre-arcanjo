@@ -7,7 +7,7 @@ export const ProjectCard = () => {
                 <div key={index} className="h-[520px] w-[520px] flex flex-col items-center justify-center max-w-lg space-y-5 border rounded-md hover:scale-105 transition-transform">
                     <h2 className="text-center font-semibold">{project.title}</h2>
                     <div className="flex justify-center">
-                        <div className="h-50 w-100 bg-[#A78BFA]"></div>
+                        <img src={project.image} className="h-50 w-100 rounded-md" alt={project.title} />
                     </div>
                     <p className="text-center max-w-64">{project.description}</p>
                     <div>
