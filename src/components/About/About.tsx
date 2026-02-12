@@ -1,7 +1,7 @@
 export const About = () => {
     return (
         <>
-            <section className="py-24 flex justify-center items-center text-[#E5E7E8]">
+            <section id="about" className="py-24 flex justify-center items-center text-[#E5E7E8]">
                 <div className="max-w-120 flex flex-col items-center text-center space-y-15">
                     <h1 className="text-4xl font-bold">Sobre</h1>
                     <div className="space-y-4">
