@@ -10,19 +10,19 @@ export const Contact = () => {
                     <p>Se quiser conversar sobre vagas ou projetos, será um prazer falar com você!</p>
                 </div>
                 <div className="flex flex-wrap justify-center gap-5">
-                    <a className="flex items-center gap-2 bg-[#7C3AED] px-4 py-2 rounded-lg hover:bg-[#A78BFA] transition hover:scale-105 transition-all" href="mailto:andrearcanjosouza@hotmail.com">
+                    <a className="flex items-center gap-2 bg-[#7C3AED] px-4 py-2 rounded-lg hover:bg-[#A78BFA] hover:scale-105 transition-all" href="mailto:andrearcanjosouza@hotmail.com">
                         <FaEnvelope size={20} />
                         Email
                     </a>
-                    <a className="flex items-center gap-2 bg-[#7C3AED] px-4 py-2 rounded-lg hover:bg-[#A78BFA] transition hover:scale-105 transition-all" href="https://www.linkedin.com/in/andre-arcanjo-7100as/" target="_blank" rel="noopener noreferrer">
+                    <a className="flex items-center gap-2 bg-[#7C3AED] px-4 py-2 rounded-lg hover:bg-[#A78BFA] hover:scale-105 transition-all" href="https://www.linkedin.com/in/andre-arcanjo-7100as/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin size={20} />
                         Linkedin
                     </a>
-                    <a className="flex items-center gap-2 bg-[#7C3AED] px-4 py-2 rounded-lg hover:bg-[#A78BFA] transition hover:scale-105 transition-all" href="https://github.com/andre-arcanjo" target="_blank" rel="noopener noreferrer">
+                    <a className="flex items-center gap-2 bg-[#7C3AED] px-4 py-2 rounded-lg hover:bg-[#A78BFA] hover:scale-105 transition-all" href="https://github.com/andre-arcanjo" target="_blank" rel="noopener noreferrer">
                         <FaGithub size={20} />
                         GitHub
                     </a>
-                    <a className="flex items-center gap-2 bg-[#7C3AED] px-4 py-2 rounded-lg hover:bg-[#A78BFA] transition hover:scale-105 transition-all" href="https://wa.me/5537999484258" target="_blank" rel="noopener noreferrer">
+                    <a className="flex items-center gap-2 bg-[#7C3AED] px-4 py-2 rounded-lg hover:bg-[#A78BFA] hover:scale-105 transition-all" href="https://wa.me/5537999484258" target="_blank" rel="noopener noreferrer">
                         <FaWhatsapp size={20} />
                         WhatsApp
                     </a>
