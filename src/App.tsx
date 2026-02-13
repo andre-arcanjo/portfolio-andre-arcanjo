@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <main>
+      <main className="pt-35 md:pt-24">
         <Header />
         <Hero />
         <About />
