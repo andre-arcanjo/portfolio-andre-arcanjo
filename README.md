@@ -1,73 +1,50 @@
-# React + TypeScript + Vite
+# 💻 Portfólio Pessoal — André Arcanjo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio!
+Este projeto foi desenvolvido para apresentar minhas habilidades, projetos e evolução como desenvolvedor.
 
-Currently, two official plugins are available:
+Aqui você encontrará informações sobre mim, minhas tecnologias, e alguns projetos que desenvolvi durante meus estudos em programação.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🚀 Sobre mim
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Sou contador de formação e atualmente em transição de carreira para a área de desenvolvimento.
+Sempre tive interesse em tecnologia e, em 2024, decidi iniciar minha jornada como programador.
 
-## Expanding the ESLint configuration
+Estou em constante aprendizado e buscando minha primeira oportunidade como desenvolvedor.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tecnologias Utilizadas
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- JavaScript
+- CSS3
+- JavaScript
+- Tailwind CSS
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🎯 Objetivo do Projeto
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Este portfólio foi criado para:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Praticar desenvolvimento front-end
+- Demonstrar minhas habilidades e projetos
+- Registrar minha evolução como desenvolvedor
+- Servir como apresentação profissional
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📱 Responsividade
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+O site é totalmente responsivo, funcionando em:
+
+- Desktop
+- Tablet
+- Mobile
+
+## 🔗 Acesse o projeto
+
+👉Deploy: https://andre-arcanjo.github.io/portfolio-andre-arcanjo/
+👉Repositório: https://github.com/andre-arcanjo/portfolio-andre-arcanjo
+
+## 📫 Contato
+
+Se quiser trocar uma ideia ou conhecer mais sobre o meu trabalho:
+
+- https://www.linkedin.com/in/andre-arcanjo-7100as/
+- Email: andrearcanjosouza@hotmail.com
