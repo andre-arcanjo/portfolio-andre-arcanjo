@@ -17,7 +17,7 @@ export const Hero = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="h-40 md:h-60 w-40 md:w-60 rounded-full bg-[#A78BFA]"></div>
+                        <img src="/Foto-Perfil.jpeg" className="h-40 md:h-58 w-40 md:w-58 rounded-full object-cover border-4 border-white shadow-lg mx-auto"/>
                     </div>
                 </section>
         </>

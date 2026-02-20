@@ -19,7 +19,7 @@ export const projects: Project[] = [
     {
     title: "Studio Ghibli Films",
     description: "Catálogo de filmes com consumo de API e página de detalhes.",
-    tech: "React • JavaScript • CSS • Studio Ghibli API",
+    tech: "React • JavaScript • Tailwind • Studio Ghibli API",
     demoLink: "https://andre-arcanjo.github.io/Studio-Ghibli-Films-API/",
     githubLink: "https://github.com/andre-arcanjo/Studio-Ghibli-Films-API",
     image: "/ghibli-img.png"
