@@ -39,12 +39,12 @@ O site é totalmente responsivo, funcionando em:
 
 ## 🔗 Acesse o projeto
 
-👉Deploy: https://andre-arcanjo.github.io/portfolio-andre-arcanjo/
+👉Deploy: https://andre-arcanjo.github.io/portfolio-andre-arcanjo/  
 👉Repositório: https://github.com/andre-arcanjo/portfolio-andre-arcanjo
 
 ## 📫 Contato
 
 Se quiser trocar uma ideia ou conhecer mais sobre o meu trabalho:
 
-- https://www.linkedin.com/in/andre-arcanjo-7100as/
+- Linkedin: https://www.linkedin.com/in/andre-arcanjo-7100as/
 - Email: andrearcanjosouza@hotmail.com
