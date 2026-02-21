@@ -14,7 +14,7 @@ export const projects: Project[] = [
     tech: "React • JavaScript • API REST • Tailwind",
     demoLink: "https://andre-arcanjo.github.io/pokedex/",
     githubLink: "https://github.com/andre-arcanjo/pokedex",
-    image: "/pokedex-img.png"
+    image: "pokedex-img.png"
     },
     {
     title: "Studio Ghibli Films",
@@ -22,7 +22,7 @@ export const projects: Project[] = [
     tech: "React • JavaScript • Tailwind • Studio Ghibli API",
     demoLink: "https://andre-arcanjo.github.io/Studio-Ghibli-Films-API/",
     githubLink: "https://github.com/andre-arcanjo/Studio-Ghibli-Films-API",
-    image: "/ghibli-img.png"
+    image: "ghibli-img.png"
     },
     {
     title: "Calculadora de Impostos",
@@ -30,7 +30,7 @@ export const projects: Project[] = [
     tech: "JavaScript • HTML • CSS • Lógica de Programação",
     demoLink: "https://andre-arcanjo.github.io/calculadora-IRPJ-CSLL-lucro-presumido/",
     githubLink: "https://github.com/andre-arcanjo/calculadora-IRPJ-CSLL-lucro-presumido",
-    image: "/calculadora-img.png"
+    image: "calculadora-img.png"
     },
     {
     title: "Ecommerce - Syntaxwear",
@@ -38,6 +38,6 @@ export const projects: Project[] = [
     tech: "HTML • CSS • Responsive Design",
     demoLink: "https://github.com/andre-arcanjo/ecommerce-syntaxwear/deployments/github-pages",
     githubLink: "https://github.com/andre-arcanjo/ecommerce-syntaxwear",
-    image: "/ecommerce-img.png"
+    image: "ecommerce-img.png"
     }
 ]
