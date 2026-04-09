@@ -17,12 +17,12 @@ export const projects: Project[] = [
     image: "pokedex-img.png"
     },
     {
-    title: "Studio Ghibli Films",
-    description: "Catálogo de filmes com consumo de API e página de detalhes.",
-    tech: "React • JavaScript • Tailwind • Studio Ghibli API",
-    demoLink: "https://andre-arcanjo.github.io/Studio-Ghibli-Films-API/",
-    githubLink: "https://github.com/andre-arcanjo/Studio-Ghibli-Films-API",
-    image: "ghibli-img.png"
+    title: "Jogo da Memória",
+    description: "Jogo da memória com sistema de cartas.",
+    tech: "React • JavaScript • Tailwind • Lógica de Programação",
+    demoLink: "https://andre-arcanjo.github.io/jogo-da-memoria/",
+    githubLink: "https://github.com/andre-arcanjo/jogo-da-memoria",
+    image: "jogo-memoria.png"
     },
     {
     title: "Calculadora de Impostos",
