@@ -1,7 +1,7 @@
 export const Hero = () => {
     return (
         <>
-                <section className="min-h-[80vh] text-[#E5E7E8] flex flex-col-reverse md:flex-row gap-10 items-center justify-around text-center md:text-left">
+                <section id="hero" className="min-h-[80vh] text-[#E5E7E8] flex flex-col-reverse md:flex-row gap-10 items-center justify-around text-center md:text-left">
                     <div className="max-w-90 md:max-w-120 text-content space-y-8">
                         <div className="space-y-5">
                             <h1 className="text-3xl md:text-4xl font-bold">André Arcanjo</h1>
