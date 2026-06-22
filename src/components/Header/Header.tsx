@@ -2,7 +2,7 @@ export const Header = () => {
   return (
     <>
       <header className="fixed top-0 left-0 w-full bg-[#0B0F19] z-50">
-        <nav className="text-[#E5E7EB] flex flex-col justify-between items-center p-10 md:flex-row">
+        <nav className="text-[#E5E7EB] lg:text-[20px] flex flex-col justify-between items-center px-30 py-10 md:flex-row">
           <a className="hover:text-[#A78BFA] transition-all" href="#hero">
             André Arcanjo
           </a>
