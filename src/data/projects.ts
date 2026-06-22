@@ -37,7 +37,7 @@ export const projects: Project[] = [
     description: "Landing page moderna com design responsivo e foco em UX.",
     tech: "React • Tailwind • Responsive Design",
     demoLink: "https://syntax-wear-app-mauve.vercel.app/",
-    githubLink: "https://github.com/andre-arcanjo/ecommerce-syntaxwear",
+    githubLink: "https://github.com/andre-arcanjo/syntax-wear-app",
     image: "ecommerce-img.png"
     }
 ]
