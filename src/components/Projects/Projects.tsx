@@ -3,7 +3,7 @@ import { ProjectCard } from './ProjectCard';
 export const Projects = () => {
   return (
     <>
-      <section id="projects" className="text-[#E5E7E8] flex flex-col justify-center min-h-screen">
+      <section id="projects" className=" flex flex-col justify-center min-h-screen">
         <h2 className="text-center text-3xl md:text-4x1 font-bold mb-20">
           Projetos
         </h2>

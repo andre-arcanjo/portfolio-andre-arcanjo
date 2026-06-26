@@ -2,19 +2,19 @@ export const Header = () => {
   return (
     <>
       <header className="fixed top-0 left-0 w-full bg-[#0B0F19] z-50">
-        <nav className="text-[#E5E7EB] lg:text-[20px] flex flex-col justify-between items-center px-30 py-10 md:flex-row">
-          <a className="hover:text-[#A78BFA] transition-all" href="#hero">
+        <nav className="lg:text-[20px] flex flex-col justify-between items-center px-30 py-10 md:flex-row">
+          <a className="hover:text-hover-button transition-all" href="#hero">
             André Arcanjo
           </a>
           <ul className="flex gap-5 mt-4 md:mt-0">
             <li>
-              <a className="hover:text-[#A78BFA] transition-all" href="#about">
+              <a className="hover:text-hover-button transition-all" href="#about">
                 Sobre
               </a>
             </li>
             <li>
               <a
-                className="hover:text-[#A78BFA] transition-all"
+                className="hover:text-hover-button transition-all"
                 href="#projects"
               >
                 Projetos
@@ -22,7 +22,7 @@ export const Header = () => {
             </li>
             <li>
               <a
-                className="hover:text-[#A78BFA] transition-all"
+                className="hover:text-hover-button transition-all"
                 href="#contact"
               >
                 Contato

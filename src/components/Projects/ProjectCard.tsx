@@ -28,7 +28,7 @@ export const ProjectCard = () => {
               href={project.demoLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="h-9 md:h-10 w-28 md:w-32 flex items-center justify-center bg-[#7C3AED] rounded-lg hover:bg-[#A78BFA] transition-all"
+              className="h-9 md:h-10 w-28 md:w-32 flex items-center justify-center bg-button rounded-lg hover:bg-hover-button transition-all"
             >
               Demo
             </a>
@@ -36,7 +36,7 @@ export const ProjectCard = () => {
               href={project.githubLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="h-9 md:h-10 w-28 md:w-32 flex items-center justify-center bg-[#7C3AED] rounded-lg hover:bg-[#A78BFA] transition-all"
+              className="h-9 md:h-10 w-28 md:w-32 flex items-center justify-center bg-button rounded-lg hover:bg-hover-button transition-all"
             >
               GitHub
             </a>

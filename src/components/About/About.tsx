@@ -3,7 +3,7 @@ export const About = () => {
     <>
       <section
         id="about"
-        className="min-h-screen py-26 flex justify-center items-center text-[#E5E7E8]"
+        className="min-h-screen py-26 flex justify-center items-center"
       >
         <div className="max-w-90 md:max-w-120 flex flex-col items-center text-center space-y-15">
           <h2 className="text-3xl md:text-4x1 font-bold">Sobre</h2>

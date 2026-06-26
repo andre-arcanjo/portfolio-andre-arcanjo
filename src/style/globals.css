@@ -2,6 +2,7 @@
 
 body {
   background-color: #0f0f14;
+  color: #E5E7EB;
 }
 
 html {
@@ -14,4 +15,9 @@ html {
 
 .scrollbar-hide {
     scrollbar-width: none;
+}
+
+@theme {
+  --color-button: #7C3AED;
+  --color-hover-button: #A78BFA;
 }

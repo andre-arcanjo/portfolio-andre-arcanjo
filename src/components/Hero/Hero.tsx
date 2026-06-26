@@ -3,7 +3,7 @@ export const Hero = () => {
     <>
       <section
         id="hero"
-        className="min-h-[80vh] text-[#E5E7E8] flex flex-col-reverse md:flex-row gap-10 items-center justify-around text-center md:text-left"
+        className="min-h-[80vh] flex flex-col-reverse md:flex-row gap-10 items-center justify-around text-center md:text-left"
       >
         <div className="max-w-90 md:max-w-120 text-content space-y-8">
           <div className="space-y-5">
@@ -24,7 +24,7 @@ export const Hero = () => {
             <a
               href="#projects"
               rel="noopener noreferrer"
-              className="h-9 w-28 md:h-10 md:w-32 flex items-center justify-center bg-[#7C3AED] rounded-lg hover:bg-[#A78BFA] hover:scale-105 transition-all"
+              className="h-9 w-28 md:h-10 md:w-32 flex items-center justify-center bg-button rounded-lg hover:bg-hover-button hover:scale-105 transition-all"
             >
               Ver Projetos
             </a>
@@ -32,7 +32,7 @@ export const Hero = () => {
               href="https://github.com/andre-arcanjo"
               target="_blank"
               rel="noopener noreferrer"
-              className="h-9 w-28 md:h-10 md:w-32 flex items-center justify-center bg-[#7C3AED] rounded-lg hover:bg-[#A78BFA] hover:scale-105 transition-all"
+              className="h-9 w-28 md:h-10 md:w-32 flex items-center justify-center bg-button rounded-lg hover:bg-hover-button hover:scale-105 transition-all"
             >
               GitHub
             </a>
