@@ -6,7 +6,7 @@ export const ProjectCard = () => {
       {projects.map((project) => (
         <div
           key={project.title}
-          className="h-[450px] w-[360px] md:h-[520px] md:w-[520px] flex flex-col items-center justify-center max-w-lg space-y-5 border rounded-md hover:scale-105 transition-transform"
+          className="h-112.5 w-90 md:h-130 md:w-130 flex flex-col items-center justify-center max-w-lg space-y-5 border rounded-md hover:scale-105 transition-transform"
         >
           <h3 className="text-center font-semibold">{project.title}</h3>
           <div className="flex justify-center">
