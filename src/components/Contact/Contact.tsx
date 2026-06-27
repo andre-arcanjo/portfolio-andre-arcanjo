@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
+import { ContactButton } from "./ContactButton";
 
 export const Contact = () => {
   return (
@@ -19,40 +19,7 @@ export const Contact = () => {
           </p>
         </div>
         <div className="flex flex-wrap justify-center gap-5">
-          <a
-            className="w-32 flex items-center justify-center gap-2 bg-button px-3 py-1.5 md:px-4 md:py-2 rounded-lg hover:bg-hover-button hover:scale-105 transition-all"
-            href="mailto:andrearcanjosouza@hotmail.com"
-          >
-            <FaEnvelope className="text-base md:text-xl" />
-            Email
-          </a>
-          <a
-            className="w-32 flex items-center justify-center gap-2 bg-button px-3 py-1.5 md:px-4 md:py-2 rounded-lg hover:bg-hover-button hover:scale-105 transition-all"
-            href="https://www.linkedin.com/in/andre-arcanjo-7100as/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin className="text-base md:text-xl" />
-            Linkedin
-          </a>
-          <a
-            className="w-32 flex items-center justify-center gap-2 bg-button px-3 py-1.5 md:px-4 md:py-2 rounded-lg hover:bg-hover-button hover:scale-105 transition-all"
-            href="https://github.com/andre-arcanjo"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithub className="text-base md:text-xl" />
-            GitHub
-          </a>
-          <a
-            className="w-32 flex items-center justify-center gap-2 bg-button px-3 py-1.5 md:px-4 md:py-2 rounded-lg hover:bg-hover-button hover:scale-105 transition-all"
-            href="https://wa.me/5537999484258"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaWhatsapp className="text-base md:text-xl" />
-            WhatsApp
-          </a>
+          <ContactButton />
         </div>
       </section>
     </>
