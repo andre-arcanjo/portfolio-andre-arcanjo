@@ -1,3 +1,5 @@
+import { HeaderNav } from './HeadersNavs';
+
 export const Header = () => {
   return (
     <>
@@ -7,27 +9,7 @@ export const Header = () => {
             André Arcanjo
           </a>
           <ul className="flex gap-5 mt-4 md:mt-0">
-            <li>
-              <a className="hover:text-hover-button transition-all" href="#about">
-                Sobre
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-hover-button transition-all"
-                href="#projects"
-              >
-                Projetos
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-hover-button transition-all"
-                href="#contact"
-              >
-                Contato
-              </a>
-            </li>
+            <HeaderNav />
           </ul>
         </nav>
       </header>
