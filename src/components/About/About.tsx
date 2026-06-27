@@ -1,12 +1,11 @@
 export const About = () => {
   return (
-    <>
       <section
         id="about"
         className="min-h-screen py-26 flex justify-center items-center"
       >
         <div className="max-w-90 md:max-w-120 flex flex-col items-center text-center space-y-15">
-          <h2 className="text-3xl md:text-4x1 font-bold">Sobre</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Sobre</h2>
           <div className="space-y-4">
             <p className="text-sm md:text-base">
               Sou desenvolvedor Front-End em transição de carreira, formado em
@@ -37,6 +36,5 @@ export const About = () => {
           </div>
         </div>
       </section>
-    </>
   );
 };

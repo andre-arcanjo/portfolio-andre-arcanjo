@@ -2,7 +2,6 @@ import { ContactButton } from "./ContactButton";
 
 export const Contact = () => {
   return (
-    <>
       <section
         id="contact"
         className="min-h-screen space-y-16 md:space-y-24 flex flex-col justify-center items-center"
@@ -22,6 +21,5 @@ export const Contact = () => {
           <ContactButton />
         </div>
       </section>
-    </>
   );
 };

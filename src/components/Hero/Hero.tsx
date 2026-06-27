@@ -1,6 +1,5 @@
 export const Hero = () => {
   return (
-    <>
       <section
         id="hero"
         className="min-h-[80vh] flex flex-col-reverse md:flex-row gap-10 items-center justify-around text-center md:text-left"
@@ -45,6 +44,5 @@ export const Hero = () => {
           />
         </div>
       </section>
-    </>
   );
 };
