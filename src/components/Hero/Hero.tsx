@@ -1,3 +1,5 @@
+import { TypeAnimation } from 'react-type-animation';
+
 export const Hero = () => {
   return (
     <section
@@ -6,9 +8,22 @@ export const Hero = () => {
     >
       <div className="max-w-90 md:max-w-120 text-content space-y-8">
         <div className="space-y-5">
-          <h1 className="text-3xl md:text-4xl font-bold">André Arcanjo</h1>
+          <h1 className="text-3xl md:text-4xl font-bold bg-linear-to-r from-purple-500 to-purple-700 bg-clip-text text-transparent">
+            <TypeAnimation
+              sequence={['André Arcanjo']}
+              speed={30}
+              cursor={false}
+              repeat={0}
+            />
+          </h1>
+
           <h2 className="text-2xl md:text-3xl font-medium">
-            Desenvolvedor Front-End
+            <TypeAnimation
+              sequence={[2000,'Desenvolvedor Front-End']}
+              speed={30}
+              cursor={true}
+              repeat={0}
+            />
           </h2>
         </div>
         <div className="space-y-2">
