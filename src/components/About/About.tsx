@@ -8,20 +8,27 @@ export const About = () => {
         <h2 className="text-3xl md:text-4xl font-bold">Sobre</h2>
         <div className="space-y-4">
           <p className="text-sm md:text-base">
-            Sou desenvolvedor Front-End em transição de carreira, formado em
-            contabilidade e apaixonado por tecnologia desde cedo. Em 2024 decidi
-            seguir o caminho da programação de forma profissional, iniciando
-            meus estudos e desenvolvimento de projetos próprios.
+            Sou desenvolvedor Full Stack em transição de carreira, formado em
+            Contabilidade e apaixonado por tecnologia. Em 2024 decidi
+            transformar esse interesse em uma nova carreira e comecei a estudar
+            desenvolvimento web de forma mais aprofundada.
           </p>
           <p className="text-sm md:text-base">
-            Atualmente estudo JavaScript, React e boas práticas de
-            desenvolvimento Front-End, sempre buscando criar interfaces
-            modernas, funcionais e responsivas. Acredito no aprendizado contínuo
-            e na prática como principal forma de evolução.
+            Atualmente desenvolvo aplicações utilizando React, TypeScript e
+            tecnologias do ecossistema Node.js, trabalhando tanto na construção
+            de interfaces quanto no desenvolvimento de APIs, integração com
+            banco de dados, autenticação e regras de negócio.
           </p>
           <p className="text-sm md:text-base">
-            Busco minha primeira oportunidade na área para aplicar meus
-            conhecimentos, ganhar experiência e contribuir em projetos reais.
+            Tenho buscado evoluir principalmente através da prática,
+            desenvolvendo projetos cada vez mais completos. Entre eles está o
+            SyntaxWear, um e-commerce Full Stack que reúne grande parte dos
+            conhecimentos que adquiri durante meus estudos.
+          </p>
+          <p className="text-sm md:text-base">
+            Busco minha primeira oportunidade profissional como desenvolvedor,
+            onde possa continuar evoluindo, contribuir com projetos reais e
+            aprender junto a outros desenvolvedores.
           </p>
         </div>
         <div className="text-center flex flex-col">
