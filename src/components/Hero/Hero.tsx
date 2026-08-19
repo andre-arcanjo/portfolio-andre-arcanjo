@@ -19,7 +19,7 @@ export const Hero = () => {
 
           <h2 className="text-2xl md:text-3xl font-medium">
             <TypeAnimation
-              sequence={[2000, 'Desenvolvedor Front-End']}
+              sequence={[2000, 'Desenvolvedor Full Stack']}
               speed={30}
               cursor={true}
               repeat={0}
@@ -28,7 +28,7 @@ export const Hero = () => {
         </div>
         <div className="space-y-2">
           <h3 className="text-sm md:text-base">
-            Criando interfaces modernas e responsivas com JavaScript e React.
+            Desenvolvendo aplicações web completas com React, TypeScript e Node.js.
           </h3>
           <h3 className="text-sm md:text-base">
             Buscando minha primeira oportunidade como desenvolvedor.
