@@ -9,6 +9,14 @@ type Project = {
 
 export const projects: Project[] = [
   {
+    title: 'Ecommerce - Syntaxwear',
+    description: 'Landing page moderna com design responsivo e foco em UX.',
+    tech: 'React • Tailwind • Responsive Design',
+    demoLink: 'https://syntax-wear-app-mauve.vercel.app/',
+    githubLink: 'https://github.com/andre-arcanjo/syntax-wear-app',
+    image: 'ecommerce-img.png',
+  },
+  {
     title: 'Pokedex',
     description:
       'Pokédex com consumo de API, listagem de Pokémon e tema dark/light.',
@@ -34,13 +42,5 @@ export const projects: Project[] = [
     githubLink:
       'https://github.com/andre-arcanjo/calculadora-IRPJ-CSLL-lucro-presumido',
     image: 'calculadora-img.png',
-  },
-  {
-    title: 'Ecommerce - Syntaxwear',
-    description: 'Landing page moderna com design responsivo e foco em UX.',
-    tech: 'React • Tailwind • Responsive Design',
-    demoLink: 'https://syntax-wear-app-mauve.vercel.app/',
-    githubLink: 'https://github.com/andre-arcanjo/syntax-wear-app',
-    image: 'ecommerce-img.png',
-  },
+  }
 ];
