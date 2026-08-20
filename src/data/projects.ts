@@ -9,9 +9,9 @@ type Project = {
 
 export const projects: Project[] = [
   {
-    title: 'Ecommerce - Syntaxwear',
-    description: 'Landing page moderna com design responsivo e foco em UX.',
-    tech: 'React • Tailwind • Responsive Design',
+    title: 'Syntaxwear - E-commerce Full Stack',
+    description: 'E-commerce Full Stack com autenticação, carrinho, checkout e gerenciamento de pedidos.',
+    tech: 'React • TypeScript • Node.js • Fastify • Prisma',
     demoLink: 'https://syntax-wear-app-mauve.vercel.app/',
     githubLink: 'https://github.com/andre-arcanjo/syntax-wear-app',
     image: 'ecommerce-img.png',
