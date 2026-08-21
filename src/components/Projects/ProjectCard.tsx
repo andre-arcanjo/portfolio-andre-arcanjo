@@ -32,23 +32,33 @@ export const ProjectCard = () => {
               ))}
             </div>
           </div>
-          <div className="flex gap-10 font-medium mb-8">
+          <div className="flex w-full justify-center gap-3 px-4 font-medium mb-8">
             <a
               href={project.demoLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="h-9 md:h-10 w-28 md:w-32 flex items-center justify-center bg-button rounded-lg hover:bg-hover-button transition-all"
+              className="h-9 md:h-10 flex flex-1 min-w-0 max-w-32 items-center justify-center bg-button rounded-lg hover:bg-hover-button transition-all text-sm md:text-base"
             >
               Demo
             </a>
             <a
-              href={project.githubLink}
+              href={project.frontendLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="h-9 md:h-10 w-28 md:w-32 flex items-center justify-center bg-button rounded-lg hover:bg-hover-button transition-all"
+              className="h-9 md:h-10 flex flex-1 min-w-0 max-w-32 items-center justify-center bg-button rounded-lg hover:bg-hover-button transition-all text-sm md:text-base"
             >
-              GitHub
+              {project.backendLink ? 'Front-End' : 'GitHub'}
             </a>
+            {project.backendLink && (
+              <a
+                href={project.backendLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="h-9 md:h-10 flex flex-1 min-w-0 max-w-32 items-center justify-center bg-button rounded-lg hover:bg-hover-button transition-all text-sm md:text-base"
+              >
+                Back-End
+              </a>
+            )}
           </div>
         </div>
       ))}

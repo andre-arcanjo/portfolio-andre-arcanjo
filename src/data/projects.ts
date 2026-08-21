@@ -3,7 +3,8 @@ type Project = {
   description: string;
   tech: string[];
   demoLink: string;
-  githubLink: string;
+  frontendLink: string;
+  backendLink?: string;
   image: string;
 };
 
@@ -13,7 +14,8 @@ export const projects: Project[] = [
     description: 'E-commerce Full Stack com autenticação, carrinho, checkout e gerenciamento de pedidos.',
     tech: ['React', 'TypeScript', 'Node.js', 'Fastify', 'Prisma'],
     demoLink: 'https://syntax-wear-app-mauve.vercel.app/',
-    githubLink: 'https://github.com/andre-arcanjo/syntax-wear-app',
+    frontendLink: 'https://github.com/andre-arcanjo/syntax-wear-app',
+    backendLink: 'https://github.com/andre-arcanjo/syntax-wear-api',
     image: 'ecommerce-img.png',
   },
   {
@@ -22,7 +24,7 @@ export const projects: Project[] = [
       'Pokédex com consumo de API, listagem de Pokémon e tema dark/light.',
     tech: ['React', 'JavaScript', 'API REST', 'Tailwind'],
     demoLink: 'https://andre-arcanjo.github.io/pokedex/',
-    githubLink: 'https://github.com/andre-arcanjo/pokedex',
+    frontendLink: 'https://github.com/andre-arcanjo/pokedex',
     image: 'pokedex-img.png',
   },
   {
@@ -30,7 +32,7 @@ export const projects: Project[] = [
     description: 'Jogo da memória com sistema de cartas.',
     tech: ['React', 'JavaScript', 'Tailwind', 'Lógica de Programação'],
     demoLink: 'https://andre-arcanjo.github.io/jogo-da-memoria/',
-    githubLink: 'https://github.com/andre-arcanjo/jogo-da-memoria',
+    frontendLink: 'https://github.com/andre-arcanjo/jogo-da-memoria',
     image: 'jogo-memoria.png',
   },
   {
@@ -39,7 +41,7 @@ export const projects: Project[] = [
     tech: ['JavaScript', 'HTML', 'CSS', 'Lógica de Programação'],
     demoLink:
       'https://andre-arcanjo.github.io/calculadora-IRPJ-CSLL-lucro-presumido/',
-    githubLink:
+    frontendLink:
       'https://github.com/andre-arcanjo/calculadora-IRPJ-CSLL-lucro-presumido',
     image: 'calculadora-img.png',
   }
