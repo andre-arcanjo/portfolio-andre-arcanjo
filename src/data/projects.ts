@@ -1,4 +1,4 @@
-type Project = {
+export type Project = {
   title: string;
   description: string;
   tech: string[];
@@ -6,6 +6,7 @@ type Project = {
   frontendLink: string;
   backendLink?: string;
   image: string;
+  featured?: boolean;
 };
 
 export const projects: Project[] = [
@@ -17,6 +18,7 @@ export const projects: Project[] = [
     frontendLink: 'https://github.com/andre-arcanjo/syntax-wear-app',
     backendLink: 'https://github.com/andre-arcanjo/syntax-wear-api',
     image: 'ecommerce-img.png',
+    featured: true,
   },
   {
     title: 'Pokedex',
