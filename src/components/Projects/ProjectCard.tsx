@@ -19,9 +19,18 @@ export const ProjectCard = () => {
           <p className="text-center text-sm md:text-base max-w-64">
             {project.description}
           </p>
-          <div className="text-sm md:text-base">
-            <p>Tecnologias Utilizadas:</p>
-            <p>{project.tech}</p>
+          <div className="text-sm md:text-base text-center">
+            <p className="mb-2">Tecnologias Utilizadas:</p>
+            <div className="flex flex-wrap justify-center gap-2 px-4">
+              {project.tech.map((technology) => (
+                <span
+                  key={technology}
+                  className="px-3 py-1 text-sm border rounded-full"
+                >
+                  {technology}
+                </span>
+              ))}
+            </div>
           </div>
           <div className="flex gap-10 font-medium mb-8">
             <a
