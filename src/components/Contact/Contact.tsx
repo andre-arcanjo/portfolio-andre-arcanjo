@@ -10,8 +10,7 @@ export const Contact = () => {
       <div className="text-center text-sm md:text-base max-w-90 md:max-w-120 space-y-2">
         <p>
           <p>
-            Estou em busca da minha primeira oportunidade como desenvolvedor
-            Full Stack.
+            Estou em busca da minha primeira oportunidade como desenvolvedor.
           </p>
         </p>
         <p>

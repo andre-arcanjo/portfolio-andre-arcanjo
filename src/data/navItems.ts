@@ -13,7 +13,7 @@ export const navItems: NavItem[] = [
     href: '#projects',
   },
   {
-    name: 'Contatos',
+    name: 'Contato',
     href: '#contact',
   },
 ];
