@@ -28,7 +28,8 @@ export const Hero = () => {
         </div>
         <div className="space-y-2">
           <h3 className="text-sm md:text-base">
-            Desenvolvendo aplicações web completas com React, TypeScript e Node.js.
+            Desenvolvendo aplicações web completas com React, TypeScript e
+            Node.js.
           </h3>
           <h3 className="text-sm md:text-base">
             Buscando minha primeira oportunidade como desenvolvedor.
@@ -55,6 +56,7 @@ export const Hero = () => {
       <div>
         <img
           src="Foto-Perfil.jpeg"
+          alt="Foto André Arcanjo"
           className="h-40 md:h-58 w-40 md:w-58 rounded-full object-cover border-4 border-white shadow-lg mx-auto"
         />
       </div>
