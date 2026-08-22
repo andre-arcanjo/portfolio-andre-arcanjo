@@ -15,9 +15,8 @@ Estou em constante aprendizado e buscando minha primeira oportunidade como desen
 
 ## 🛠️ Tecnologias Utilizadas
 
-- JavaScript
-- CSS3
-- JavaScript
+- React
+- TypeScript
 - Tailwind CSS
 
 ## 🎯 Objetivo do Projeto
