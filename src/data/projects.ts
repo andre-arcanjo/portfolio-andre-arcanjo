@@ -38,13 +38,13 @@ export const projects: Project[] = [
     image: 'jogo-memoria.png',
   },
   {
-    title: 'Calculadora de Impostos',
-    description: 'Calculadora de IRPJ e CSLL com base em receitas mensais.',
-    tech: ['JavaScript', 'HTML', 'CSS', 'Lógica de Programação'],
+    title: 'Studio Aura - Landing Page',
+    description: 'Landing page responsiva desenvolvida com auxílio da IA para acelerar o desenvolvimento.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Design Responsivo'],
     demoLink:
-      'https://andre-arcanjo.github.io/calculadora-IRPJ-CSLL-lucro-presumido/',
+      'https://andre-arcanjo.github.io/studio-aura/',
     frontendLink:
-      'https://github.com/andre-arcanjo/calculadora-IRPJ-CSLL-lucro-presumido',
-    image: 'calculadora-img.png',
+      'https://github.com/andre-arcanjo/studio-aura',
+    image: 'studio-aura.png',
   }
 ];
