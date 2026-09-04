@@ -1,3 +1,5 @@
+import { skills } from "../../data/skills";
+
 export const About = () => {
   return (
     <section
@@ -34,16 +36,9 @@ export const About = () => {
         <div className="text-center flex flex-col">
           <h3 className="font-medium">Skills principais</h3>
           <div className="flex flex-wrap justify-center gap-5 text-sm md:text-base mt-6">
-            <p>React</p>
-            <p>TypeScript</p>
-            <p>JavaScript</p>
-            <p>Node.js</p>
-            <p>Fastify</p>
-            <p>Prisma</p>
-            <p>APIs REST</p>
-            <p>PostgreSQL</p>
-            <p>Tailwind CSS</p>
-            <p>Git & GitHub</p>
+            {skills.map((skill) => (
+              <p key={skill}>{skill}</p>)
+            )}
           </div>
         </div>
       </div>
