@@ -12,7 +12,8 @@ export type Project = {
 export const projects: Project[] = [
   {
     title: 'Syntaxwear - E-commerce Full Stack',
-    description: 'E-commerce Full Stack com autenticação, carrinho, checkout e gerenciamento de pedidos.',
+    description:
+      'E-commerce Full Stack com autenticação, carrinho, checkout e gerenciamento de pedidos.',
     tech: ['React', 'TypeScript', 'Node.js', 'Fastify', 'Prisma'],
     demoLink: 'https://syntax-wear-app-mauve.vercel.app/',
     frontendLink: 'https://github.com/andre-arcanjo/syntax-wear-app',
@@ -39,12 +40,11 @@ export const projects: Project[] = [
   },
   {
     title: 'Studio Aura - Landing Page',
-    description: 'Landing page responsiva desenvolvida com auxílio da IA para acelerar o desenvolvimento.',
+    description:
+      'Landing page responsiva desenvolvida com auxílio da IA para acelerar o desenvolvimento.',
     tech: ['HTML', 'CSS', 'JavaScript', 'Design Responsivo'],
-    demoLink:
-      'https://andre-arcanjo.github.io/studio-aura/',
-    frontendLink:
-      'https://github.com/andre-arcanjo/studio-aura',
+    demoLink: 'https://andre-arcanjo.github.io/studio-aura/',
+    frontendLink: 'https://github.com/andre-arcanjo/studio-aura',
     image: 'studio-aura.png',
-  }
+  },
 ];

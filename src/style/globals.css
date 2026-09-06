@@ -2,7 +2,7 @@
 
 body {
   background-color: #0f0f14;
-  color: #E5E7EB;
+  color: #e5e7eb;
 }
 
 html {
@@ -10,14 +10,14 @@ html {
 }
 
 .scrollbar-hide::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .scrollbar-hide {
-    scrollbar-width: none;
+  scrollbar-width: none;
 }
 
 @theme {
-  --color-button: #7C3AED;
-  --color-hover-button: #A78BFA;
+  --color-button: #7c3aed;
+  --color-hover-button: #a78bfa;
 }

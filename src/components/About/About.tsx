@@ -1,4 +1,4 @@
-import { skills } from "../../data/skills";
+import { skills } from '../../data/skills';
 
 export const About = () => {
   return (
@@ -37,8 +37,8 @@ export const About = () => {
           <h3 className="font-medium">Skills principais</h3>
           <div className="flex flex-wrap justify-center gap-5 text-sm md:text-base mt-6">
             {skills.map((skill) => (
-              <p key={skill}>{skill}</p>)
-            )}
+              <p key={skill}>{skill}</p>
+            ))}
           </div>
         </div>
       </div>
