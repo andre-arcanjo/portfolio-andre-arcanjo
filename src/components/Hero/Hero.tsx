@@ -44,7 +44,7 @@ export const Hero = () => {
             Ver Projetos
           </a>
           <a
-            href={`${import.meta.env.BASE_URL}andre-arcanjo-curriculo.pdf`}
+            href={`${import.meta.env.BASE_URL}curriculo-andre-arcanjo.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="h-9 w-28 md:h-10 md:w-32 flex items-center justify-center bg-button rounded-lg hover:bg-hover-button hover:scale-105 transition-all"
