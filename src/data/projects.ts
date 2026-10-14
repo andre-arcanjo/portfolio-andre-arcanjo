@@ -22,13 +22,13 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    title: 'Pokedex',
+    title: 'Fintrack - Dashboard Financeiro com IA',
     description:
-      'Pokédex com consumo de API, listagem de Pokémon e tema dark/light.',
-    tech: ['React', 'JavaScript', 'API REST', 'Tailwind'],
-    demoLink: 'https://andre-arcanjo.github.io/pokedex/',
-    frontendLink: 'https://github.com/andre-arcanjo/pokedex',
-    image: 'pokedex-img.png',
+      'Aplicação Full Stack para gerenciamento financeiro, com insights personalizados com IA.',
+    tech: ['Next.js', 'TypeScript', 'PostgreSQL', 'Prisma', 'OpenAI API'],
+    demoLink: 'https://fintrack-ai-dashboard-app.vercel.app/',
+    frontendLink: 'https://github.com/andre-arcanjo/fintrack-ai-app',
+    image: 'fintrack.png',
   },
   {
     title: 'Jogo da Memória',
