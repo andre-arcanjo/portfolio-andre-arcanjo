@@ -1,5 +1,6 @@
 export const skills: string[] = [
   'React',
+  'Next.js',
   'JavaScript',
   'TypeScript',
   'Node.js',
